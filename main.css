@@ -1,0 +1,18 @@
+.top-box {
+	border: 2px solid black;
+	background-position: center;
+	margin: 5% 15% 10px;
+	display: inline-block;
+	background-color: #ffb4b0;
+	padding-right: 500px;
+}
+
+ul li {
+	display: inline-block;
+	text-align: left;
+	padding: 0px 3px 0px;
+}
+
+.b {
+	border-left: 2px solid black;
+}
