@@ -1,7 +1,11 @@
+* {
+	clear: border-box;
+}
+
 .top-box {
 	border: 2px solid black;
 	background-position: center;
-	margin: 5% 15% 10px;
+	margin: 5% 15% 17px;
 	display: inline-block;
 	background-color: #ffb4b0;
 	padding-right: 500px;
@@ -10,9 +14,31 @@
 ul li {
 	display: inline-block;
 	text-align: left;
-	padding: 0px 3px 0px;
+	padding: 0px 5px 0px;
 }
 
 .b {
 	border-left: 2px solid black;
 }
+
+.left-box {
+	border: 2px solid black;
+	background-position: center;
+	background-size: 30px 50px;
+	margin-left: 15%;
+	margin-right: 0px;
+	background-color: #4dd7fa;
+	padding: 5px 12.5% 0 0;
+	float: left;
+}
+
+.right-box {
+	border: 2px solid black;
+	background-position: center;
+	margin-right: 15%;
+	margin-left: 17px;
+	background-color: #fefac0;
+	padding: 5px 292.5px 0 0px;
+	float: left;
+}
+
